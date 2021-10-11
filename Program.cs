@@ -17,7 +17,6 @@ namespace MyBlazorApp
         {
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDk2ODAxQDMxMzkyZTMyMmUzMFZpWDNrc3YzMUd4cFlha01TeFZEb1lGSm4yWVNVU0xoVzFwTHBjQnZMSFU9");
             builder.Services.AddSyncfusionBlazor();
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
