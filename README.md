@@ -1,0 +1,2 @@
+# perform-filtering-in-blazor-gantt-chart
+The Blazor Gantt Chart is a project planning and management tool that provides a Microsoft Project-like interface to display and manage hierarchical tasks with timeline details.   In this quick-start project, you can learn how to enable filtering, its hierarchy modes, operators, filter at initial rendering in the Syncfusion Gantt Chart in a Blazor WebAssembly application. You’ll also learn how to perform a filter on a particular column and clear all the filters in the Gantt Chart.
