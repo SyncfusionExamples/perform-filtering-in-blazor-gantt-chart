@@ -18,10 +18,9 @@
         <GanttColumn Field="Progress"></GanttColumn>
     </GanttColumns>
     <GanttFilterSettings HierarchyMode="FilterHierarchyMode.None"></GanttFilterSettings>
-    @*<GanttFilterSettings Columns="@FilterColumns"></GanttFilterSettings>*@
 </SfGantt>
 
-@code{
+@code {
 
     SfGantt<TaskData> Gantt;
     public List<TaskData> TaskCollection { get; set; }
